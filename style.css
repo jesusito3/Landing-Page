@@ -96,9 +96,10 @@ p {
 
 .text {
     width: 150px;
-    font-size: 18px;
+    font-size: 14px;
     color: #1f2937;
     margin: 8px;
+    text-align: center;
 }
 
 .quote {
@@ -106,11 +107,24 @@ p {
     flex: 1;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .message {
     display: flex;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    justify-content: center;
+}
+
+.author {
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
     justify-content: center;
 }
 
