@@ -49,6 +49,10 @@ body {
     color: #f9faf8;
 }
 
+.main-text button {
+    margin-top: 16px;
+}
+
 a {
     color: #e5e7eb;
     text-decoration: none;
@@ -78,10 +82,11 @@ p {
 
 .information-header {
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 800;
     color: #1f2937;
     text-align: center;
-    padding: 48px 0;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .pictures img {
@@ -111,6 +116,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 64px 0;
 }
 
 .message {
@@ -159,17 +165,22 @@ button {
 .end button {
     border-color: white;
     align-self: center;
+    margin: 32px 64px;
 }
 
 .ad {
     display: flex;
     background-color: #3882f6;
     align-items: center;
+    margin: 48px 0;
+    justify-content: space-between;
+    border-radius: 10px;
 }
 
 .sign-up {
     display: flex;
     flex-direction: column;
     color: #e5e7eb;
+    margin: 32px 98px;
     
 }
